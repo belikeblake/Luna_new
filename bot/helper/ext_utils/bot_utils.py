@@ -130,7 +130,7 @@ def progress_bar(pct):
     return p_str
 
 def get_readable_message():
-    msg = "<b>Powered by Luna</b>\n\n"
+    msg = "<b>------------</b>\n\n"
     button = None
     STATUS_LIMIT = config_dict['STATUS_LIMIT']
     tasks = len(download_dict)
